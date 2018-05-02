@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/Pruebas_MUsuarios.dir/main.c.o CMakeFiles/Pruebas_MUsuarios.dir/test_users.c.o  -o Pruebas_MUsuarios.exe -Wl,--out-implib,libPruebas_MUsuarios.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pruebas_MUsuarios"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pruebas_MUsuarios">
+				<Option output="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Pruebas_MUsuarios.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pruebas_MUsuarios"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pruebas_MUsuarios/fast">
+				<Option output="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Pruebas_MUsuarios.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/6.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pruebas_MUsuarios/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j4 -f &quot;/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/fct.h">
+			<Option target="Pruebas_MUsuarios"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/main.c">
+			<Option target="Pruebas_MUsuarios"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/test_users.c">
+			<Option target="Pruebas_MUsuarios"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/test_users.h">
+			<Option target="Pruebas_MUsuarios"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Miguel/CLionProjects/Pruebas_MUsuarios/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
