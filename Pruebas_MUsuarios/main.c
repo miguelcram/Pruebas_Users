@@ -9,6 +9,8 @@ FCT_BGN()
                             FCT_TEST_BGN(Test_Estructura_Vacia: no se cumpla la condicion del bucle)
                                                 {
                                                     vUsuarios users;
+                                                    users.user = NULL;
+                                                    users.tam  = 0;
                                                     fct_chk( users.user == NULL );
                                                     fct_chk( users.tam == 0 );
                                                     fct_chk_eq_int( buscarIndexUsuario(&users, 0), -1);
@@ -57,7 +59,7 @@ FCT_BGN()
                                                     users.user=initUsuarios(&users.tam, "prueba5.txt");
                                                     fct_chk( users.user != NULL );
                                                     fct_chk( users.tam == 12 );
-                                                    fct_chk_eq_int( buscarIndexUsuario(&users, -5201), 10);
+                                                    fct_chk_eq_int( buscarIndexUsuario(&users, 5201), 10);
                                                     saveUsuarios(users.tam, users.user, "prueba5.txt");
                                                     free(users.user);
                                                 }

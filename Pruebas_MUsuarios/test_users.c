@@ -71,7 +71,6 @@ void saveUsuarios(int n, Usuarios *usuarios, char *fichero) {
         free(usuarios[i].Localidad);
     }
     fclose(file);
-    puts("Usuarios Guardados");
 }
 
 int buscarIndexUsuario(vUsuarios *v, int userId) {
